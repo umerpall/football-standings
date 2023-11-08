@@ -1,0 +1,111 @@
+{
+  "leagues": [
+    { "name": "Ligue 1", "id": 61 },
+    { "name": "Bundesliga", "id": 78 },
+    { "name": "Serie A", "id": 71 },
+    { "name": "Premier League", "id": 39 },
+    { "name": "La Liga", "id": 107 }
+  ],
+  "initialEdges": [
+    {
+      "id": "leagues_to_ligue_1",
+      "source": "leagues",
+      "target": "ligue_1"
+    },
+    {
+      "id": "leagues_to_bundesliga",
+      "source": "leagues",
+      "target": "bundesliga"
+    },
+    {
+      "id": "leagues_to_serie_a",
+      "source": "leagues",
+      "target": "serie_a"
+    },
+    {
+      "id": "leagues_to_premier_league",
+      "source": "leagues",
+      "target": "premier_league"
+    },
+    {
+      "id": "leagues_to_la_liga",
+      "source": "leagues",
+      "target": "la_liga"
+    },
+    {
+      "id": "ligue_1_to_league_to_1",
+      "source": "ligue_1",
+      "target": "league_to_1"
+    },
+    {
+      "id": "ligue_1_to_league_to_2",
+      "source": "ligue_1",
+      "target": "league_to_2"
+    },
+    {
+      "id": "ligue_1_to_league_to_3",
+      "source": "ligue_1",
+      "target": "league_to_3"
+    },
+    {
+      "id": "bundesliga_to_league_to_4",
+      "source": "bundesliga",
+      "target": "league_to_4"
+    },
+    {
+      "id": "bundesliga_to_league_to_5",
+      "source": "bundesliga",
+      "target": "league_to_5"
+    },
+    {
+      "id": "bundesliga_to_league_to_6",
+      "source": "bundesliga",
+      "target": "league_to_6"
+    },
+    {
+      "id": "serie_a_to_league_to_7",
+      "source": "serie_a",
+      "target": "league_to_7"
+    },
+    {
+      "id": "serie_a_to_league_to_8",
+      "source": "serie_a",
+      "target": "league_to_8"
+    },
+    {
+      "id": "serie_a_to_league_to_9",
+      "source": "serie_a",
+      "target": "league_to_9"
+    },
+    {
+      "id": "premier_league_to_league_to_10",
+      "source": "premier_league",
+      "target": "league_to_10"
+    },
+    {
+      "id": "premier_league_to_league_to_11",
+      "source": "premier_league",
+      "target": "league_to_11"
+    },
+    {
+      "id": "premier_league_to_league_to_12",
+      "source": "premier_league",
+      "target": "league_to_12"
+    },
+    {
+      "id": "la_liga_to_league_to_13",
+      "source": "la_liga",
+      "target": "league_to_13"
+    },
+    {
+      "id": "la_liga_to_league_to_14",
+      "source": "la_liga",
+      "target": "league_to_14"
+    },
+    {
+      "id": "la_liga_to_league_to_15",
+      "source": "la_liga",
+      "target": "league_to_15"
+    }
+  ]
+}
