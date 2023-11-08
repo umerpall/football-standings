@@ -1,5 +1,4 @@
 import * as React from "react";
-
 import "reactflow/dist/style.css";
 import FlowChart from "./components/FlowChart";
 import { getFootballStandingsData } from "./helpers/getFootballStandingsData";

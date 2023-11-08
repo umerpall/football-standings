@@ -1,6 +1,5 @@
 "use client";
 
-// import { useEffect, useState, useCallback, useRef } from "react";
 import data from "../data.json";
 import ReactFlow, { Background } from "reactflow";
 
@@ -155,11 +154,6 @@ const FlowChart = ({ allRankedLeagues }: any) => {
       position: { x: 500, y: 400 },
     },
   ];
-  //   const [rankedTeams, setRankedTeams] = useState([]);
-  //   useEffect(() => {
-  //     setRankedTeams(allRankedLeagues);
-  //   }, [allRankedLeagues]);
-  console.log(initialNodes);
 
   return (
     <>
