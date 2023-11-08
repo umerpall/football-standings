@@ -18,7 +18,7 @@ const FlowChart = ({ allRankedLeagues }: any) => {
       sourcePosition: "right",
       targetPosition: "left",
       data: { label: allRankedLeagues[0][0].group },
-      position: { x: 250, y: -200 },
+      position: { x: 250, y: -250 },
     },
     {
       id: "bundesliga",
